@@ -30,7 +30,7 @@
         {
             this.filePath = new System.Windows.Forms.TextBox();
             this.txtReplace = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtXMLDoc = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -50,13 +50,13 @@
             this.txtReplace.Size = new System.Drawing.Size(119, 20);
             this.txtReplace.TabIndex = 0;
             // 
-            // richTextBox1
+            // txtXMLDoc
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 66);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(776, 360);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.txtXMLDoc.Location = new System.Drawing.Point(12, 66);
+            this.txtXMLDoc.Name = "txtXMLDoc";
+            this.txtXMLDoc.Size = new System.Drawing.Size(776, 360);
+            this.txtXMLDoc.TabIndex = 1;
+            this.txtXMLDoc.Text = "";
             // 
             // button1
             // 
@@ -96,7 +96,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtXMLDoc);
             this.Controls.Add(this.txtReplace);
             this.Controls.Add(this.filePath);
             this.Name = "Form1";
@@ -110,7 +110,7 @@
 
         private System.Windows.Forms.TextBox filePath;
         private System.Windows.Forms.TextBox txtReplace;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtXMLDoc;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
