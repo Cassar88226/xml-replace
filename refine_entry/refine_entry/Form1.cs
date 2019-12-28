@@ -13,11 +13,11 @@ using System.Xml;
 
 namespace refine_entry
 {
-    public partial class Form1 : Form
+    public partial class Replace_Tag : Form
     {
         private string m_fullText;
 
-        public Form1()
+        public Replace_Tag()
         {
             InitializeComponent();
             m_fullText = null;

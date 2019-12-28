@@ -1,6 +1,6 @@
 ﻿namespace refine_entry
 {
-    partial class Form1
+    partial class Replace_Tag
     {
         /// <summary>
         /// Required designer variable.
@@ -45,7 +45,7 @@
             // 
             // txtReplace
             // 
-            this.txtReplace.Location = new System.Drawing.Point(452, 23);
+            this.txtReplace.Location = new System.Drawing.Point(436, 22);
             this.txtReplace.Name = "txtReplace";
             this.txtReplace.Size = new System.Drawing.Size(119, 20);
             this.txtReplace.TabIndex = 0;
@@ -70,7 +70,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(588, 20);
+            this.button2.Location = new System.Drawing.Point(561, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(89, 23);
             this.button2.TabIndex = 2;
@@ -88,19 +88,19 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // Replace_Tag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(797, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtXMLDoc);
             this.Controls.Add(this.txtReplace);
             this.Controls.Add(this.filePath);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Replace_Tag";
+            this.Text = "Replace Tag";
             this.ResumeLayout(false);
             this.PerformLayout();
 
